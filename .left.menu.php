@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"На главную", 
+		"/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Профиль", 
+		"/personal/profile/", 
+		Array(), 
+		Array(), 
+		" \$USER->IsAuthorized()" 
+	),
+	Array(
+		"Заказы", 
+		"/personal/order/", 
+		Array(), 
+		Array(), 
+		"false" 
+	),
+	Array(
+		"Конфигурация-I3A", 
+		"/personal/conf/", 
+		Array(), 
+		Array(), 
+		"CSite::InGroup(array(1))" 
+	),
+	Array(
+		"Конфигурация", 
+		"/personal/configure/configure.php", 
+		Array(), 
+		Array(), 
+		"false" 
+	)
+);
+?>
